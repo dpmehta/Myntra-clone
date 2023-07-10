@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Assistant', sans-serif;
+}
+
+.left img{
+    width: 58px;
+    height: 58px;
+    margin-left: 12px;
+    margin-right: 62px;
+   
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.container{
+    max-width: 100vw;
+}
+
+nav{
+    padding: 12px 0;
+}
+
+
+.left ul li{
+    list-style: none;
+    padding: 0 12px;
+   font-weight: 600;
+   color: #282C3F;
+    font-size: 15px;
+}
+
+.left ul li sup{
+    color: rgb(255, 0, 34);
+}
+
+.right{
+    margin-left: 3px;
+}
+
+.left{
+    margin-left: 40px;
+}
+
+#searchBar{
+    height: 40px;
+    width: 500px;
+    border: none;
+    padding-left: 20px;
+    background-color: rgba(128, 128, 128, 0.106);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#searchIcon{
+    height: 39.8px;
+    background-color: rgba(128, 128, 128, 0.106);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-left: 46px
+}
+
+.iconItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.icons{
+    margin-left: 40px;
+}
+
+p{
+    margin: 2px 0;
+}
+
+.section-1{
+    background-color: #f2f2f2;
+    height: 121vh;
+}
+
+#home-first-img{
+    width: 91vw;
+    margin-top: 28px;
+    padding: 0 65px;
+}
+
+.home-secons-img{
+    width: 99vw;
+    margin-top: 8px;
+}
+
+.catalog{
+    display: flex;
+    margin-top:-4px;
+}
+
+.catalog img{
+    width: 170px;
+    height: 200px;
+}
+
+.catalog-2{
+    display: flex;
+    margin-top:40px;
+}
+
+.catalog-2 img{
+    width: 170px;
+    height: 200px;
+}
+
+.catalog-3{
+    display: flex;
+}
+
+.catalog-3 img{
+    width: 170px;
+    height: 200px;
+}
+
+.myFooter{
+    width: 1080px;
+    margin: 0 220px;
+}
+
+.myFooter p{
+    font-size: 14px;
+    margin: 14px 0;
+}
+
+.myFooter h3{
+    font-size: 14px;
+}
+
+.details{
+    margin: 14px 0;
+    padding: 0 0 0 40px;
+}
+
+.details li{
+    list-style: decimal;
+}
+
+.onlineShopping a{
+    text-decoration: none;
+    color: #282C3F;
+    display: block;
+    font-size: 15px;
+    padding: 0 0 5px;
+}
+
+.onlineShopping p{
+    margin: 12px 0;
+}
+
+
+.onlineShopping {
+    padding-right: 20px;
+}
+
+
+
+
+#useful{
+    margin: 19px 0 12px;
+}
+
+#first-p{
+    margin: 12px 0;
+}
+
+.customer-policy a{
+    text-decoration: none;
+    color: #282C3F;
+    display: block;
+    font-size: 15px;
+    padding: 0 0 5px;
+}
+
+.first-anchor{
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    
+ }
+
+#footer-info{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.userExperience{
+   padding-left: 50px;
+   padding-right: 20px;
+   width: 310px;
+   height: 176.2px;
+
+}
+
+#infoTitle{
+    margin-top: 12px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.userExImage{
+    display: flex;
+}
+
+.userExImage img{
+    width: 139px;
+    height: 42px;
+    margin: 0 10px 0 0;
+}
+
+.keepInTouch{
+    margin-top: 20px;
+    margin-bottom: 16px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.mediaIcons i{
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+.original img{
+    width: 48px;
+    height: 40px;
+}
+
+.original{
+    display: flex;
+    margin-top: 12px;
+    color: #696B79;
+    padding-bottom: 18px;
+}
+
+.original span{
+   margin-left: 10px;
+   width: 200px;
+}
+
+#upperPart{
+    display: flex;
+    align-items: center;
+}
+
+#hLine{
+    width: 62vw;
+    height: 0.5px;
+    border: 1px solid black;
+}
+
+#searchTitle{
+    font-size: 12px;
+    font-weight: 700;
+    margin-right:  2px;
+}
+
+#categoryLinks{
+    font-size: 15px;
+    color: #696B79;
+    word-spacing: 1px;
+    line-height: 25px;
+}
+
+.contactDetails{
+    font-size: 16px;
+    color: #696B79;
+    display: flex;
+}
+
+#contactUs span{
+    color: blue;
+    
+}
+
+#contactUs{
+    align-self: flex-start;
+}
+
+#copyright{
+    align-self: flex-end;
+    position: absolute;
+    right: 228px;
+}
+
+.addressDetails{
+    margin: 30px 0;
+    padding: 20px 0 0;
+    border-top: 1px solid #eaeaec;
+    border-bottom: 1px solid #eaeaec;
+    font-size: 15px;
+    font-style: normal;
+    line-height: 20px;
+}
+
+#addressTitle{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.address {
+    width:756px;
+    height: 120px;
+}
+
+.address p{
+    width:756px;
+    height: 120px;
+}
+
+#legalInfo{
+    position: relative;
+    bottom:40px;
+    left: 740px;
+}
+
+
+
+
+
